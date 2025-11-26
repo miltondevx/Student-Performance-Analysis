@@ -11,7 +11,7 @@ The analysis covers:
 
 * Displays structure, column types, and sample rows.
 
-* 2. Data Quality Checks.
+2. Data Quality Checks.
 
 * Detects missing values.
 
@@ -19,7 +19,7 @@ The analysis covers:
 
 * Confirms data types and categorical fields.
 
-  3. Data Cleaning
+3. Data Cleaning
 
 * Numerical missing values → filled with mean.
 
