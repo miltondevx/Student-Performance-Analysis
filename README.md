@@ -7,7 +7,7 @@ The analysis covers:
 
 1. Data Loading.
 
-* Reads [student_performance_updated_1000.csv](https://github.com/user-attachments/files/23771082/student_performance_updated_1000.csv)
+* Reads [student_performance_updated_1000.csv](student_performance_updated_1000.csv)
 
 * Displays structure, column types, and sample rows.
 
