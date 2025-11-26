@@ -1,92 +1,93 @@
 # Student-Performance-Analysis
 This project explores a Student Performance dataset using Python (pandas). The notebook (note.ipynb) walks through the full data-analysis workflow: cleaning, exploration, feature engineering, and insights.
-🔍 Project Overview
+
+ <h3>🔍Project Overview</h3>
 
 The analysis covers:
 
-1. Data Loading
+1. Data Loading.
 
 * Reads [student_performance_updated_1000.csv](https://github.com/user-attachments/files/23771082/student_performance_updated_1000.csv)
 
-* Displays structure, column types, and sample rows
+* Displays structure, column types, and sample rows.
 
-* 2. Data Quality Checks
+* 2. Data Quality Checks.
 
-* Detects missing values
+* Detects missing values.
 
-* Identifies duplicate rows
+* Identifies duplicate rows.
 
-* Confirms data types and categorical fields
+* Confirms data types and categorical fields.
 
   3. Data Cleaning
 
-* Numerical missing values → filled with mean
+* Numerical missing values → filled with mean.
 
-* Categorical missing values → filled with mode
+* Categorical missing values → filled with mode.
 
-* Drops or fixes any inconsistencies
+* Drops or fixes any inconsistencies.
 
-4. Exploratory Data Analysis (EDA)
+4. Exploratory Data Analysis (EDA).
 
 Includes:
 
-* Grade distribution
+* Grade distribution.
 
-* Study hours patterns
+* Study hours patterns.
 
-* Attendance analysis
+* Attendance analysis.
 
-* Subsetting (e.g., only low performers, only high performers)
+* Subsetting (e.g., only low performers, only high performers).
 
- 5. Feature Engineering
+ 5. Feature Engineering.
 
 Creates a new column:
 
 `PerformanceCategory`
 
-* High: FinalGrade ≥ 85
+* High: FinalGrade ≥ 85.
 
-* Medium: FinalGrade ≥ 70
+* Medium: FinalGrade ≥ 70.
 
-* Low: < 70
+* Low: < 70.
 
-  6. Filtering & Insights
+  6. Filtering & Insights.
 
 Examples:
 
-* Students with low attendance
+* Students with low attendance.
 
-*Students with high study hours
+*Students with high study hours.
 
-* Gender-based summaries
+* Gender-based summaries.
 
 * Top/lowest performers
 
-7. Grouping & Aggregations
+7. Grouping & Aggregations.
 
-* groupby() on gender, performance categories, study patterns
+* groupby() on gender, performance categories, study patterns.
 
-* Combined metrics using agg()
+* Combined metrics using agg().
 
-* Merging external summary data for comparison
+* Merging external summary data for comparison.
 
-8. Statistical Analysis
+8. Statistical Analysis.
 
-* Correlations with FinalGrade
+* Correlations with FinalGrade.
 
-* Summary statistics for major variables
+* Summary statistics for major variables.
 
 * Quick extraction of average grades, attendance, etc.
 
 🛠️ Tech Stack
 
-* Python
+* Python.
 
-* pandas
+* pandas.
 
-* NumPy
+* NumPy.
 
-* Jupyter Notebook
+* Jupyter Notebook.
 
 🚀 How to Run This Project
 
@@ -101,12 +102,10 @@ jupyter notebook Student-Performance-Analysis.ipynb
 
 The dataset includes:
 
-* Demographics — Name, Gender
+* Demographics — Name, Gender.
 
-* Academic Metrics — FinalGrade, AttendanceRate
+* Academic Metrics — FinalGrade, AttendanceRate.
 
-* Behavioral Factors — StudyHoursPerWeek
+* Behavioral Factors — StudyHoursPerWeek.
 
-* Additional Attributes — relevant performance indicators
-
-Perfect for EDA and feature engineering practice.
+* Additional Attributes — relevant performance indicators.
